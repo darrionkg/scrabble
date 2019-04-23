@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace PingPong
 {
@@ -8,9 +9,13 @@ namespace PingPong
         Console.WriteLine("Please enter a number");
         string enteredNumber = Console.ReadLine();
         int enteredInt = int.Parse(enteredNumber);
-        Game newGame = new Game ();
-        newGame.replaceNumbersWithPingPong(enteredInt);
+        Game newGame = new Game();
+        // List<int> numbers = new List<int>();
+        // for(int i =1; i<= enteredInt; i++ ){
+        //   i = newGame.replaceNumbersWithPingPong(i);
+        //   numbers.Add(i);
+        // }
+        newGame.replaceNumbersWithPingPong(15);
       }
-
   }
 }

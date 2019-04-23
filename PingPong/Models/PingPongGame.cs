@@ -4,18 +4,18 @@ namespace PingPong
 {
   public class Game
   {
-    public void replaceNumbersWithPingPong(int enteredInt) {
-      for(int i =1; i<= enteredInt; i++ ){
+    public string replaceNumbersWithPingPong(int i) {
         if(i % 15 == 0){
-          Console.WriteLine("ping-pong");
+          return "ping-pong";
         }else if (i % 5 == 0){
-          Console.WriteLine("pong");
+          return "pong";
         }else if(i % 3 == 0){
-          Console.WriteLine("ping");
+          return "ping";
         }else{
-          Console.WriteLine(i);
+          // string stringI = i.ToString();
+          // return stringI;
+          return i.ToString();
         }
-      }
     }
   }
  }
