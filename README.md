@@ -1,20 +1,22 @@
-# _Ping Pong in C Sharp_
+# _Scrabble_
 
-#### _Print "ping" , "pong", and "ping-pong", April 2019_
+#### _Scrabble Word Scores, April 2019_
 
-#### By _**Darrion Gering and Kerriann Walker**_
+#### By _**Darrion Gering and Liz Kelley**_
 
 ## Description
 
-Use C-Sharp to make a ping-pong function
+Use C# to return Scrabble scores for words.
 
 ## Specs
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| check if divisible by 3 and 5 | number | ping-pong |
-| check if divisible by 3 | number | ping |
-| check if divisible by 5 | number | pong |
+| Get a letter from the user | a | a |
+| See what score matches this letter | a | 1 |
+| Get a word from the user | word | word  |
+| Evaluate word to see what scores match with the individual letters | word | w=4, o=1, r=1, d=2 |
+| Add individual letter scores together to get word score | word | 8 |
 
 
 ## Setup/Installation Requirements
@@ -28,11 +30,11 @@ No known bugs
 
 ## Support and contact details
 
-Kerriannwalker3@gmail.com
+123@123.com
 
 ## Technologies Used
 
-C Sharp, .NET
+C#, .NET
 
 ### License
 

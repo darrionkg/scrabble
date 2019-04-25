@@ -1,0 +1,4 @@
+/Users/Guest/Desktop/Scrabble.Solution/Scrabble.Tests/obj/Debug/netcoreapp1.1/Scrabble.Tests.csprojAssemblyReference.cache
+/Users/Guest/Desktop/Scrabble.Solution/Scrabble.Tests/obj/Debug/netcoreapp1.1/Scrabble.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Scrabble.Solution/Scrabble.Tests/obj/Debug/netcoreapp1.1/Scrabble.Tests.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/Scrabble.Solution/Scrabble.Tests/obj/Debug/netcoreapp1.1/Scrabble.Tests.AssemblyInfo.cs
