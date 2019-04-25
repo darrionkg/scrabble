@@ -13,5 +13,19 @@ namespace Scrabble.Tests
       Words testWords = new Words("word");
       Assert.AreEqual(typeof(Words), testWords.GetType());
     }
+
+    // [TestMethod]
+    // public void MakeArray_StringReturnsLetterArray_True()
+    // {
+    //   Words testWords = new Words("word");
+    //   Assert.AreEqual('w', testWords.MakeArray());
+    // }
+
+    [TestMethod]
+    public void WordValue_FindLetterValue_Int()
+    {
+      Words testWords = new Words("word");
+      char[] charArr = testWords.MakeArray();
+    }
   }
 }
