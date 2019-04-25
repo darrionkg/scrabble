@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
 namespace ScrabbleStuff
+
 {
   public class Words
   {
@@ -49,4 +50,5 @@ namespace ScrabbleStuff
       return totalScore;
     }
   }
+  
 }
