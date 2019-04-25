@@ -21,6 +21,11 @@ namespace ScrabbleStuff
       return _word;
     }
 
+    public int GetValues(string letter)
+    {
+      return _letterPoints[letter];
+    }
+
     public void SetWord(string newWord)
     {
       _word = newWord;

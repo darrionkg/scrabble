@@ -25,7 +25,9 @@ namespace Scrabble.Tests
     public void WordValue_FindLetterValue_Int()
     {
       Words testWords = new Words("word");
-      char[] charArr = testWords.MakeArray();
+      int value = testWords.GetValues("w");
+      Assert.AreEqual(4, value);
     }
+
   }
 }
